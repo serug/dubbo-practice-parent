@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-simple-consumer</artifactId>
+    <artifactId>dubbo-boot-consumer-8202</artifactId>
 
 
 </project>

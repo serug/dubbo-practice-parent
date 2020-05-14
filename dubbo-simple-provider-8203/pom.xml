@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-simple-provider</artifactId>
+    <artifactId>dubbo-simple-provider-8203</artifactId>
 
 
 </project>
