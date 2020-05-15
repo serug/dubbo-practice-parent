@@ -52,8 +52,6 @@
             <version>4.3.0</version>
         </dependency>
 
-
-
         <!--        basic api-->
         <dependency>
             <groupId>top.serug.dubbo</groupId>
@@ -63,8 +61,5 @@
 
 
     </dependencies>
-
-
-
 
 </project>
