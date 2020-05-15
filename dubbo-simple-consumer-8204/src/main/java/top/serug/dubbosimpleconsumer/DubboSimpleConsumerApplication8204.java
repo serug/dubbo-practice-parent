@@ -17,11 +17,12 @@ import java.util.List;
 public class DubboSimpleConsumerApplication8204 {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("consumer.xml");
         DemoConsumerService demoConsumerService = context.getBean(DemoConsumerService.class);
         demoConsumerService.invokeProviderService();
 
+        Thread.sleep(Long.MAX_VALUE);
     }
 }

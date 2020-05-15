@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date: 2020/5/14  19:58
  */
 @SpringBootApplication
+//开启Dubbo的包扫描，也可以通过在配置文件中配置dubbo.scan.base-packages=top.serug.dubbobootprovider
 @EnableDubbo
 public class DubboBootProviderApplication8201 {
 
